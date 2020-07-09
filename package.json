@@ -12,7 +12,9 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "nuxt": "^2.13.0"
+    "@nuxt/content": "^1.4.1",
+    "nuxt": "^2.13.0",
+    "postcss-nested": "^4.2.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
