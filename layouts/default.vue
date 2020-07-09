@@ -2,6 +2,7 @@
   <div>
     <Header></Header>
     <Nuxt />
+    <Footer></Footer>
   </div>
 </template>
 <style>
@@ -12,6 +13,7 @@
 }
 html {
   color: var(--text-color);
+  @apply text-gray-800;
 }
 h1 {
   @apply text-5xl;
@@ -33,7 +35,7 @@ hr {
   @apply my-8;
 }
 a {
-  color: var(--url-color);
+  @apply text-purple-700 transition ease-in-out;
 }
 a:hover {
   @apply underline;
