@@ -11,12 +11,10 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@nuxt/content": "^1.4.1",
     "nuxt": "^2.13.0",
-    "postcss-nested": "^4.2.2"
-  },
-  "devDependencies": {
+    "postcss-nested": "^4.2.2",
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/tailwindcss": "^2.0.0",
