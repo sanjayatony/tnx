@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="max-w-2xl mx-auto p-8">
+    <div class="max-w-2xl mx-auto p-4">
       <nuxt-content :document="doc" />
     </div>
   </div>
