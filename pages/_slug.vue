@@ -11,6 +11,7 @@ export default {
     const doc = await $content(params.slug || "index").fetch();
     return { doc };
   },
+  // this will update meta
   head() {
     return {
       title: this.doc.title,
