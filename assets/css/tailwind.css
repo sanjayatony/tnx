@@ -1,22 +1,3 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-:root {
-  --text-color: #4d5156;
-  --url-color: #1a0dab;
-  --url-visited: #609;
-}
-html {
-  font-family: "";
-  color: var(--text-color);
-}
-p,
-ul {
-  @apply text-base mb-4 leading-relaxed;
-}
-a {
-  color: var(--url-color);
-}
-a:hover {
-  @apply underline;
-}
