@@ -1,13 +1,7 @@
 <template>
   <div>
-    <div class="header max-w-xl mx-auto p-4">
-      <h1 class="text-4xl"><a href="/">tonys.</a></h1>
+    <div class="header max-w-2xl mx-auto p-8">
+      <h1 class="text-5xl"><a href="/">tonys.</a></h1>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style lang="scss" scoped></style>
