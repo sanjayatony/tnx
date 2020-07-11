@@ -5,7 +5,7 @@
 
     <p>
       I am Tony, a web developer and a dad (
-      <nlink to="/devdad">devdad</nlink>) from Indonesia. I have been
+      <n-link to="/devdad">devdad</n-link>) from Indonesia. I have been
       a professional web developer since 2012.
     </p>
 
