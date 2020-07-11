@@ -4,8 +4,8 @@
     <p>Since you already here, I will introduce myself.</p>
 
     <p>
-      I am Tony, a web developer and a dad (
-      <n-link to="/devdad">devdad</n-link>) from Indonesia. I have been
+      I am Tony, a web developer and a dad,
+      <n-link to="/devdad">devdad</n-link>, from Indonesia. I have been
       a professional web developer since 2012.
     </p>
 
