@@ -9,13 +9,15 @@
     </p>
 
     <p>
-      Since then, I have built <a href="/works">many kinds of websites</a>, and
+      Since then, I have built
+      <nuxt-link to="/works">many kinds of websites</nuxt-link>, and
       focus more on WordPress. WordPress theme, plugin, maintenance, anything
       related to WordPress, you name it.
     </p>
 
     <p>
-      I am currenctly working for <a href="https://peepso.com">PeepSo</a>, a
+      I am currenctly working for
+      <a href="https://peepso.com">PeepSo</a>, a
       social network plugin for WordPress that allows you to quickly and
       effortlessly add a social network or an online community, similar to
       Facebook right inside your WordPress site.
