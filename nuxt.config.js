@@ -47,13 +47,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: ["@nuxt/content", "@nuxtjs/robots"],
-  content: {
-    markdown: {
-      prism: {
-        theme: false
-      }
-    }
-  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
