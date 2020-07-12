@@ -6,7 +6,7 @@
         <a href="https://twitter.com/sanjayatony" target="_blank"
           >@sanjayatony</a
         >, or email
-        <a href="mailto:hi@tonysanjaya.me" target="_blank">hi@tonysanjaya.me</a
+        <a href="mailto:tony@sanjaya.info" target="_blank">tony@sanjaya.info</a
         >.
       </p>
     </div>
