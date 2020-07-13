@@ -40,7 +40,7 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012."
+            "👨🏻‍💻 Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012."
         }
       ]
     };
