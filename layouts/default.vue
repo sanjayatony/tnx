@@ -13,7 +13,13 @@
   --url-visited: #609;
 }
 html {
-  @apply text-black;
+  @apply text-gray-700;
+}
+.header a {
+  @apply text-purple-600 no-underline;
+  &:hover {
+    @apply underline;
+  }
 }
 h1 {
   @apply text-5xl;
@@ -35,11 +41,13 @@ hr {
   @apply my-8;
 }
 a {
-  @apply text-purple-600 transition ease-in-out;
+  @apply text-purple-600 transition;
+
+  &:hover {
+    @apply underline transition ease-out duration-700;
+  }
 }
-a:hover {
-  @apply underline;
-}
+
 .nav ul {
   position: absolute;
   top: 50%;
