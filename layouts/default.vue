@@ -41,7 +41,7 @@ hr {
   @apply my-8;
 }
 a {
-  @apply text-purple-600;
+  @apply text-purple-600 transition;
 
   &:hover {
     @apply underline transition ease-out duration-700;
