@@ -9,11 +9,11 @@
 :root {
   --text-color: #4d5156;
   --url-color: #1a0dab;
+  --hover-color: #68b5fb;
   --url-visited: #609;
 }
 html {
-  color: var(--text-color);
-  @apply text-gray-800;
+  @apply text-black;
 }
 h1 {
   @apply text-5xl;
@@ -35,7 +35,7 @@ hr {
   @apply my-8;
 }
 a {
-  @apply text-purple-700 transition ease-in-out;
+  @apply text-purple-600 transition ease-in-out;
 }
 a:hover {
   @apply underline;
