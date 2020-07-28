@@ -38,7 +38,7 @@ ul {
   @apply text-lg mb-4 leading-loose;
 }
 hr {
-  @apply my-8;
+  @apply mt-1 mb-8;
 }
 a {
   @apply text-purple-600 transition;
