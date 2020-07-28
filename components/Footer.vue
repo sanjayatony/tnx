@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bottom-0 bg-white w-full">
+  <div class>
     <div class="footer max-w-2xl mx-auto p-4 text-center">
       <hr />
       <p class="text-lg mb-1">
