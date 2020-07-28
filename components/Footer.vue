@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="footer max-w-2xl mx-auto p-4 mt-10 text-center">
+  <div class="fixed bottom-0 bg-white w-full">
+    <div class="footer max-w-2xl mx-auto p-4 text-center">
       <hr />
       <p class="text-lg mb-1">
         Want to chat? Mention
