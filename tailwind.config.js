@@ -20,7 +20,7 @@ module.exports = {
         "Apple Color Emoji",
         "Segoe UI Emoji",
         "Segoe UI Symbol",
-        "Noto Color Emoji"
+        "Noto Color Emoji",
       ],
       serif: ["Times New Roman", "Times", "serif"],
       mono: [
@@ -29,12 +29,12 @@ module.exports = {
         "Consolas",
         "Liberation Mono",
         "Courier New",
-        "monospace"
-      ]
-    }
+        "monospace",
+      ],
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === "production",
@@ -43,7 +43,7 @@ module.exports = {
       "layouts/**/*.vue",
       "pages/**/*.vue",
       "plugins/**/*.js",
-      "nuxt.config.js"
-    ]
-  }
+      "nuxt.config.js",
+    ],
+  },
 };
