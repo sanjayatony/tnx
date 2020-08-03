@@ -1,9 +1,12 @@
 <template>
-  <article class="prose">
-    <h1>{{ doc.title }}</h1>
-    <p class="text=sm">{{ formatDate(doc.date) }}</p>
-    <nuxt-content :document="doc" />
-  </article>
+  <div>
+    <PostHeader />
+    <article class="prose">
+      <h1>{{ doc.title }}</h1>
+      <p class="text=sm">{{ formatDate(doc.date) }}</p>
+      <nuxt-content :document="doc" />
+    </article>
+  </div>
 </template>
 
 <script>
