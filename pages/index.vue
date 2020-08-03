@@ -31,10 +31,9 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const docs = await $content("post")
+    const docs = await $content("blog")
       .sortBy("date", "desc")
       .fetch();
-    console.log(docs);
     return { docs };
   },
   head() {
