@@ -31,7 +31,9 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const docs = await $content("post").sortBy("createdAt", "desc").fetch();
+    const docs = await $content("post")
+      .sortBy("date", "desc")
+      .fetch();
     console.log(docs);
     return { docs };
   },
@@ -43,10 +45,10 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "👨🏻‍💻 Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012.",
-        },
-      ],
+            "👨🏻‍💻 Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012."
+        }
+      ]
     };
-  },
+  }
 };
 </script>
