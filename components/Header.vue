@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="header max-w-2xl mx-auto p-4">
-      <h1 class="text-5xl">
+    <div class="header">
+      <h1 class="text-4xl mb-10">
         <nuxt-link to="/">tonys.</nuxt-link>
       </h1>
     </div>
