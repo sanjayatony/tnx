@@ -3,7 +3,7 @@
     <PostHeader />
     <article class="prose">
       <h1>{{ doc.title }}</h1>
-      <p class="text=sm">{{ formatDate(doc.date) }}</p>
+      <span class="text-sm">{{ formatDate(doc.date) }}</span>
       <nuxt-content :document="doc" />
     </article>
   </div>
@@ -29,6 +29,16 @@ export default {
           hid: "description",
           name: "description",
           content: this.doc.excerpt,
+        },
+        {
+          hid: "og-type",
+          property: "og:type",
+          content: "website",
+        },
+        {
+          hid: "og-url",
+          property: "og:url",
+          content: "website",
         },
         {
           hid: "og-title",
