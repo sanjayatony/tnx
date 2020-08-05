@@ -18,6 +18,9 @@ html {
 .header a:hover {
   @apply underline;
 }
+.prose h1 {
+  margin-bottom: 0.2em;
+}
 .prose a,
 .footer a {
   @apply text-indigo-600 no-underline;
