@@ -2,7 +2,7 @@
   <div>
     <PostHeader />
     <article class="prose">
-      <h1>I made all of this</h1>
+      <h1>Projects</h1>
       <p>Under construction 🚧</p>
     </article>
   </div>
@@ -11,15 +11,15 @@
 export default {
   head() {
     return {
-      title: "Works | Tony Sanjaya",
+      title: "Projects | Tony Sanjaya",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: "List of my projects."
-        }
-      ]
+          content: "List of my projects.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

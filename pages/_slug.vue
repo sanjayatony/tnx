@@ -2,10 +2,8 @@
   <div>
     <PostHeader />
     <article class="prose">
-      <span class="text-sm italic">{{ formatDate(doc.date) }}</span>
-      <h1>{{ doc.title }}</h1>
-
-      <nuxt-content :document="doc" />
+      <h1>{{ page.title }}</h1>
+      <nuxt-content :document="page" />
     </article>
   </div>
 </template>
@@ -13,23 +11,17 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const doc = await $content(`blog/${params.slug}` || "index").fetch();
-    return { doc };
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
-    },
+    const page = await $content(`${params.slug}` || "index").fetch();
+    return { page };
   },
   head() {
     return {
-      title: this.doc.title,
+      title: this.page.title,
       meta: [
         {
           hid: "description",
           name: "description",
-          content: this.doc.excerpt,
+          content: this.page.excerpt,
         },
         {
           hid: "og-type",
@@ -44,17 +36,17 @@ export default {
         {
           hid: "og-title",
           property: "og:title",
-          content: this.doc.title,
+          content: this.page.title,
         },
         {
           hid: "og-description",
           property: "og:description",
-          content: this.doc.excerpt,
+          content: this.page.excerpt,
         },
         {
           hid: "og-image",
           property: "og:image",
-          content: this.doc.img,
+          content: this.page.img,
         },
         {
           hid: "tw-card",
@@ -64,17 +56,17 @@ export default {
         {
           hid: "tw-title",
           property: "tw:title",
-          content: this.doc.title,
+          content: this.page.title,
         },
         {
           hid: "tw-description",
           property: "tw:description",
-          content: this.doc.excerpt,
+          content: this.page.excerpt,
         },
         {
           hid: "tw-image",
           property: "tw:image",
-          content: this.doc.img,
+          content: this.page.img,
         },
       ],
     };
