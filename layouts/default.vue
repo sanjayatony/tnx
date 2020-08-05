@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nuxt class="max-w-2xl p-4 pb-20 ml-0 lg:ml-20" />
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 <style>
@@ -22,7 +22,9 @@ html {
 .footer a {
   @apply text-indigo-600 no-underline;
 }
-.prose a:hover,
+.prose a:hover {
+  @apply bg-yellow-200 text-gray-700;
+}
 .footer a:hover {
   @apply underline;
 }
