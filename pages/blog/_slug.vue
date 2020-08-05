@@ -3,7 +3,7 @@
     <PostHeader />
     <article class="prose">
       <h1>{{ doc.title }}</h1>
-      <span class="text-sm">{{ formatDate(doc.date) }}</span>
+      <span class="text-sm italic">{{ formatDate(doc.date) }}</span>
       <nuxt-content :document="doc" />
     </article>
   </div>
