@@ -31,4 +31,5 @@ Masih menggunakan Sony a5000 dan lensa Meike 35mm untuk mengambil gambar dan vid
 ![](http://tony.sanjaya.info/wp-content/uploads/2018/02/DSC01116.jpg)
 ![](http://tony.sanjaya.info/wp-content/uploads/2018/02/DSC01120.jpg)
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/kkKx9Jrog6w?feature=oembed" title="Nauly: Memberi Makan Rusa dan Bermain Odong-Odong di Taman Flora" width="625"></iframe>
+<div class="resp-embed">
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/kkKx9Jrog6w?feature=oembed" title="Nauly: Memberi Makan Rusa dan Bermain Odong-Odong di Taman Flora"></iframe></div>

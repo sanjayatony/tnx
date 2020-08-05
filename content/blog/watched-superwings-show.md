@@ -20,5 +20,5 @@ I try to include audio from the footages. It comes from internal mic of the came
 If you are 90's kids you must recognize the intro. It's super legen wait for it...dary legendary.
 
 If anyone read this post, let me know what do you think of the video.
-
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/SW7pXx8c-Tc?feature=oembed" title="Superwings Show at Tunjungan Plaza" width="625"></iframe>
+<div class="resp-embed">
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/SW7pXx8c-Tc?feature=oembed" title="Superwings Show at Tunjungan Plaza"></iframe></div>

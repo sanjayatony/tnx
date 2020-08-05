@@ -18,7 +18,9 @@ For the last, maybe, 6 months I started One Piece marathon. I watched it from Fi
 - Mr. 2 (my favorite), help Luffy escape from Impel Down. Even he sacrifices himself to let Luffy go, and remember how he encourages Luffy to get better after got poison from Magellan. T_T. Mr. 2 was a bad guy from Baroque Works.
 - Vinsmokes, they help Luffy from Big Mom. Vinsmokes are Sanji’s family.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/ajdiAy-GU1w?feature=oembed" title="One Piece - Bon Clay (Mr.2) Sacrifice Himself For Luffy (Second Time) Eng Dub" width="625"></iframe>
+<div class="resp-embed">
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ajdiAy-GU1w?feature=oembed" title="One Piece - Bon Clay (Mr.2) Sacrifice Himself For Luffy (Second Time) Eng Dub" ></iframe>
+</div>
 
 Watching One Piece makes my mind-blowing sometimes. Everything connected.
 
@@ -39,5 +41,6 @@ That brings me back to 2013. Let say I give up, and still insist on using Bootst
 Whatever are you doing right now, even the small one, just do it with pride. We don’t know what it will bring in the future. And be nice to people, we don’t know what the purpose of that we know some dude in our life in the future. There no such things as coincidence.
 
 If you don’t get what I am talking about, Pandji has a better explanation.
-
+<div class="resp-embed">
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/5M0i6Fbe-q8?feature=oembed" title="5 MENIT YG MENGUBAH HIDUP" width="625"></iframe>
+</div>

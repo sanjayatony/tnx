@@ -10,4 +10,6 @@ This is my first video. I took all of the footages using my only camera, a5000. 
 
 All the footages were taken when we went to Pasar Atom Surabaya. While her mom is shopping, I recorded her movement anywhere anytime . Hope I don't look like a weirdo.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Pe00VRWo10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="resp-embed">
+<iframe src="https://www.youtube.com/embed/3Pe00VRWo10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
