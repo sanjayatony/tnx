@@ -2,6 +2,7 @@
 title: What I Can Learn from Luffy's Adventures
 date: 2020-03-18
 excerpt: If you don’t know (seriously?), Luffy is the main character of Manga/Anime One Piece. It’s about his journey to search the greatest treasure in the world, One Piece. He wants to be a pirate king, and in his journey, he met some friends to go along on his journey.
+img: https://www.opfanpage.com/wp-content/uploads/2020/03/OVER_THE_TOP-1024x576.png
 tag:
   - life
 ---
