@@ -31,4 +31,17 @@ html {
 .prose img {
   @apply mx-auto;
 }
+.resp-embed {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.resp-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 </style>
