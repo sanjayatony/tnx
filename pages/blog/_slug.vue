@@ -2,9 +2,11 @@
   <div>
     <PostHeader />
     <article class="prose">
-      <span class="text-sm italic">{{ formatDate(doc.date) }}</span>
+      <span class="text-xs"
+        >Created: {{ formatDate(doc.date) }}, last updated
+        {{ formatDate(doc.updatedAt) }}</span
+      >
       <h1>{{ doc.title }}</h1>
-
       <nuxt-content :document="doc" />
     </article>
   </div>
@@ -20,7 +22,7 @@ export default {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
-    },
+    }
   },
   head() {
     return {
@@ -29,55 +31,55 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.doc.excerpt,
+          content: this.doc.excerpt
         },
         {
           hid: "og-type",
           property: "og:type",
-          content: "website",
+          content: "website"
         },
         {
           hid: "og-url",
           property: "og:url",
-          content: "website",
+          content: "website"
         },
         {
           hid: "og-title",
           property: "og:title",
-          content: this.doc.title,
+          content: this.doc.title
         },
         {
           hid: "og-description",
           property: "og:description",
-          content: this.doc.excerpt,
+          content: this.doc.excerpt
         },
         {
           hid: "og-image",
           property: "og:image",
-          content: this.doc.img,
+          content: this.doc.img
         },
         {
           hid: "tw-card",
           property: "tw:card",
-          content: "summary_large_image",
+          content: "summary_large_image"
         },
         {
           hid: "tw-title",
           property: "tw:title",
-          content: this.doc.title,
+          content: this.doc.title
         },
         {
           hid: "tw-description",
           property: "tw:description",
-          content: this.doc.excerpt,
+          content: this.doc.excerpt
         },
         {
           hid: "tw-image",
           property: "tw:image",
-          content: this.doc.img,
-        },
-      ],
+          content: this.doc.img
+        }
+      ]
     };
-  },
+  }
 };
 </script>
