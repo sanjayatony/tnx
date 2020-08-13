@@ -18,12 +18,13 @@
     "nuxt": "^2.13.0"
   },
   "devDependencies": {
-    "postcss-nested": "^4.2.2",
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0",
-    "eslint-plugin-nuxt": "^1.0.0"
+    "eslint-plugin-nuxt": "^1.0.0",
+    "postcss-nested": "^4.2.2"
   }
 }
