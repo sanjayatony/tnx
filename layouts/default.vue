@@ -1,22 +1,12 @@
 <template>
   <div>
-    <Nuxt class="max-w-2xl p-4 pb-20 ml-0 lg:ml-20" />
+    <Nuxt class="max-w-2xl mx-auto p-4 pb-20" />
     <Footer />
   </div>
 </template>
 <style>
-:root {
-  --url-color: #1a0dab;
-  --url-visited: #609;
-}
 html {
-  @apply text-gray-700;
-}
-.header a {
-  @apply no-underline font-serif;
-}
-.header a:hover {
-  @apply underline;
+  @apply text-gray-900;
 }
 .prose a,
 .footer a {
