@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="prose prose-xl">
-      <h1 class="text-center">Tony Sanjaya</h1>
+    <div class="prose">
+      <h1>Tony Sanjaya 👨🏻‍💻🕸</h1>
       <p>
         I am Tony, a web developer and a dad,
         <n-link to="/devdad">devdad</n-link>, from Indonesia. I have been a
@@ -27,10 +27,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const docs = await $content("blog")
-      .sortBy("updateAt", "desc")
-      .fetch();
-    console.log(docs);
+    const docs = await $content("blog").sortBy("updatedAt", "desc").fetch();
     return { docs };
   },
   head() {
@@ -41,10 +38,10 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "👨🏻‍💻 Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012."
-        }
-      ]
+            "👨🏻‍💻 Web developer (especially WordPress) from Indonesia. I have been a professional web developer since 2012.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nuxt class="max-w-2xl mx-auto p-4 pb-20" />
+    <Nuxt class="max-w-2xl ml-0 lg:ml-20 p-4 pb-20" />
     <Footer />
   </div>
 </template>
