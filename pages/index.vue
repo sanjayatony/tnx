@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="prose">
-      <h1>Tony Sanjaya 👨🏻‍💻🕸</h1>
+      <h1>Tony Sanjaya</h1>
+      <p class>👨🏻‍💻 + 🍕 + ☕️ = 🕸</p>
       <p>
         I am Tony, a web developer and a dad,
         <n-link to="/devdad">devdad</n-link>, from Indonesia. I have been a
